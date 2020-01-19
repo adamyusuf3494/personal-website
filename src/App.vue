@@ -9,23 +9,23 @@
     
     <v-footer>
             <v-row
-            class="primary lighten-2  text-center black--text"
+            class="transparent darker-2  text-center black--text"
         justify="center"
         no-gutters
       >
            <v-btn
           v-for="icon in icons"
           :key="icon"
-          color="black"
+          color="white"
           text
           rounded
-          class="blue lighten-2 my-2"
+          class=" primary mx-2 my-1"
         >
           <v-icon>{{ icon }}</v-icon>
           
         </v-btn> 
         <v-col
-          class="primary lighten-2  text-center black--text"
+          class="transparent darker-2  text-center black--text"
           cols="12"
         >
           <span>&copy;2020 — <strong>Adam Yusuf</strong></span>
