@@ -3,16 +3,16 @@
     <v-container class="hidden-md-and-down">
       <v-layout row wrap justify-center class="my-2">
         <v-flex lg1.5 xl1 class="text-center my-2">
-          <v-btn class="primary" flat @click="goToHome()">Home</v-btn>
+          <v-btn class="primary" text @click="goToHome()">Home</v-btn>
         </v-flex>
         <v-flex lg1.5 xl1 class="text-center my-2">
-          <v-btn class="primary" flat @click="goToResume()">Resume</v-btn>
+          <v-btn class="primary" text @click="goToResume()">Resume</v-btn>
         </v-flex>
         <v-flex lg1.5 xl1 class="text-center my-2">
-          <v-btn class="primary" flat @click="goToProjects()">Projects</v-btn>
+          <v-btn class="primary" text @click="goToProjects()">Projects</v-btn>
         </v-flex>
         <v-flex lg1.5 xl1 class="text-center my-2">
-          <v-btn class="primary" flat @click="goToAbout()">About</v-btn>
+          <v-btn class="primary" text @click="goToAbout()">About</v-btn>
         </v-flex>
       </v-layout>
     </v-container>

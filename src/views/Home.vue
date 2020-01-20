@@ -37,13 +37,13 @@
     <v-container>
       <v-layout row wrap justify-center class="my-2">
         <v-flex xs6 sm3 md3 lg2 class="text-center my-2">
-          <v-btn class="primary" @click="goToResume()">See my resume</v-btn>
+          <v-btn text class="primary" @click="goToResume()">See my resume</v-btn>
         </v-flex>
         <v-flex xs6 sm3 md3 lg2 class="text-center my-2">
-          <v-btn class="primary" @click="goToProjects()">See my projects</v-btn>
+          <v-btn text class="primary" @click="goToProjects()">See my projects</v-btn>
         </v-flex>
         <v-flex xs6 sm3 md3 lg2 class="text-center my-2">
-          <v-btn class="primary" @click="goToAbout()">Learn about me</v-btn>
+          <v-btn text class="primary" @click="goToAbout()">Learn about me</v-btn>
         </v-flex>
       </v-layout>
     </v-container>
