@@ -1,6 +1,6 @@
 <template>
-<div class="mx-1 my-5">
-    <v-container  >
+  <div class="mx-1 my-5">
+    <v-container>
       <v-layout row wrap justify-center>
         <v-flex xs11 sm11 md11 lg2 class="py-2">
           <h2>Skills</h2>
@@ -98,7 +98,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-    </div>
+  </div>
 </template>
 
 <script>

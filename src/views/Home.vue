@@ -1,5 +1,5 @@
 <template>
-<div>
+  <div>
     <v-container class="mt-10">
       <v-layout justify-center>
         <v-flex xs10 md8 lg6>
@@ -31,9 +31,9 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <br class="hidden-md-and-up ">
-    <br class="hidden-md-and-up ">
-    <br class="hidden-lg-and-up ">
+    <br class="hidden-md-and-up" />
+    <br class="hidden-md-and-up" />
+    <br class="hidden-lg-and-up" />
     <v-container>
       <v-layout row wrap justify-center class="my-2">
         <v-flex xs6 sm3 md3 lg2 class="text-center my-2">
@@ -47,7 +47,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-    </div>
+  </div>
 </template>
 
 <script>
