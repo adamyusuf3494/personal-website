@@ -94,7 +94,6 @@
             <li>Implemented Firebase for authentication and store user's username and score</li>
             <br />
             <li>Created a leader board using the stored data in firebase</li>
-            <li>Stored on git hub for version control</li>
           </ul>
         </v-flex>
       </v-layout>
