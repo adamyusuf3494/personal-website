@@ -15,13 +15,14 @@
       >
            <v-btn
           v-for="icon in icons"
-          :key="icon"
+          :key="icon.name"
           color="white"
           text
           rounded
           class=" primary mx-2 my-1"
         >
-          <v-icon>{{ icon }}</v-icon>
+        <a :href="icon.link" :target="icon.target" ><v-icon color="white">{{ icon.name }}</v-icon></a>
+          
           
         </v-btn> 
         <v-col
@@ -37,6 +38,10 @@
 
 <script>
 import Navbar from '@/components/Navbar'
+import {
+  mdiGithubBox,
+  mdiLinkedin 
+} from '@mdi/js'
 export default {
   name: 'App',
   components: { Navbar  },
@@ -45,9 +50,23 @@ export default {
 
   data: () => ({
     icons: [
-      'email',
-      'fab fa-linkedin',
-      'fab fa-github'
+    {
+      name:'email',
+      link: 'mailto:adamyusuf3494@gmail.com',
+      target: '_blank'
+
+    },
+    {
+      name:mdiGithubBox,
+      link:'https://www.linkedin.com/in/adam-yusuf',
+      target: '_blank'
+    },
+    {
+      name:mdiLinkedin,
+      link: 'https://github.com/adamyusuf3494/',
+      target: '_blank'
+    }
+      
     ],
   }),
 };
