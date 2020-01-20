@@ -1,11 +1,11 @@
 <template>
-  <v-app>
-    <v-container class="mx-0 my-5">
+<div class="mx-1 my-5">
+    <v-container  >
       <v-layout row wrap justify-center>
-        <v-flex xs12 sm12 md12 lg2>
+        <v-flex xs11 sm11 md11 lg2 class="py-2">
           <h2>Skills</h2>
         </v-flex>
-        <v-flex xs12 sm12 md12 lg6>
+        <v-flex xs11 sm11 md11 lg6 class="py-2">
           <ul>
             <li>
               Proficient in
@@ -57,10 +57,10 @@
       <br />
       <br />
       <v-layout row wrap justify-center>
-        <v-flex xs12 sm12 md12 lg2>
+        <v-flex xs11 sm11 md11 lg2 class="py-2">
           <h2>Experience</h2>
         </v-flex>
-        <v-flex xs12 sm12 md12 lg6>
+        <v-flex xs11 sm11 md11 lg6 class="py-2">
           <h4>
             <strong>Integration, Quality Assurance</strong> | Kinaxis | Sept 2018 - Aug 2019
           </h4>
@@ -81,10 +81,10 @@
       <br />
       <br />
       <v-layout row wrap justify-center>
-        <v-flex xs12 sm12 md12 lg2>
+        <v-flex xs11 sm11 md11 lg2 class="py-2">
           <h2>Projects</h2>
         </v-flex>
-        <v-flex xs12 sm12 md12 lg6>
+        <v-flex xs11 sm11 md11 lg6 class="py-2">
           <h4>
             <strong>Snakes Board Game</strong> | Jan 2020
           </h4>
@@ -98,7 +98,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-  </v-app>
+    </div>
 </template>
 
 <script>

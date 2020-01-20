@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <footer />
     <Navbar v-show="$route.name !== 'home'" />
 
     <v-content>
