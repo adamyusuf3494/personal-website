@@ -3,23 +3,23 @@
     <v-container class="hidden-md-and-down">
       <v-layout row wrap justify-center class="my-2">
         <v-flex lg1.5 xl1 class="text-center my-2">
-          <v-btn @click="goToHome()">Home</v-btn>
+          <v-btn class="primary" @click="goToHome()">Home</v-btn>
         </v-flex>
         <v-flex lg1.5 xl1 class="text-center my-2">
-          <v-btn @click="goToResume()">Resume</v-btn>
+          <v-btn class="primary" @click="goToResume()">Resume</v-btn>
         </v-flex>
         <v-flex lg1.5 xl1 class="text-center my-2">
-          <v-btn @click="goToProjects()">Projects</v-btn>
+          <v-btn class="primary" @click="goToProjects()">Projects</v-btn>
         </v-flex>
         <v-flex lg1.5 xl1 class="text-center my-2">
-          <v-btn @click="goToAbout()">About</v-btn>
+          <v-btn class="primary" @click="goToAbout()">About</v-btn>
         </v-flex>
       </v-layout>
     </v-container>
 
     <v-toolbar class="hidden-lg-and-up">
         <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-        <v-toolbar-side-icon   ></v-toolbar-side-icon>
+        <v-app-bar-nav-icon></v-app-bar-nav-icon>
     </v-toolbar>
     
     <v-navigation-drawer v-model="drawer" app class="hidden-lg-and-up primary">
